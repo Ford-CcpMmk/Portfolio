@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <title>TriBuddha Homepage</title>
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,600,700" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Thasadith:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="manual.css" />
+
+</head>
+
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none">
+        <symbol id="bootstrap" viewBox="0 0 118 94">
+            <title>Bootstrap</title>
+            <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z">
+            </path>
+        </symbol>
+        <symbol id="facebook" viewBox="0 0 16 16">
+            <path
+                d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+        </symbol>
+        <symbol id="instagram" viewBox="0 0 16 16">
+            <path
+                d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+        </symbol>
+        <symbol id="twitter" viewBox="0 0 16 16">
+            <path
+                d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+        </symbol>
+    </svg>
+
+    <section class="site-header hero overlay">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand site-title" href="#"><span>Tri</span>Buddha</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="menu">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="browse.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="compare-tripitaka.html">Compare Tripitaka</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="search.html">Search</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="documentation.html">Documentation</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="hero">
+            <div class="px-4 my-5 text-center hero-content">
+                <div class="hero-text">
+                    <h1 class="display-5 fw-bold">ความสำคัญของพระไตรปิฎก</h1>
+                    <div class="col-lg-9 mx-auto">
+                        <p class="lead mb-5">
+                            พระไตรปิฎกเป็นคัมภีร์ที่สำคัญที่สุดของพระพุทธศาสนาเพราะเป็นคัมภีร์ที่รวบรวมเอาคำสอนดั้งเดิมของพระพุทธเจ้า.
+                        </p>
+                        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                            <a href="search.html" type="button" class="btn btn-outline-dark btn-lg px-5 gap-3">
+                                LET'S SEARCH
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md">
+                <div class="side-bar">
+                    <nav id="navbar" class="sticky">
+                        <header>
+                            <h1>Documentation</h1>
+                        </header>
+                        <ul>
+                            <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+                            <li><a class="nav-link" href="#E-book">E-book</a></li>
+                            <li><a class="nav-link" href="#Compare-tripitaka">Compare Tripitaka</a></li>
+                            <li><a class="nav-link" href="#Search">Search</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+            </div>
+            <div class="col-md">
+                <div id="main-doc" class="main">
+                    <section id="Introduction" class="main-section">
+                        <header>Introduction</header>
+                        <p>TriBuddha คือ เว็บแอพพลิเคชั่นที่รวมรวมพระไตรปิฎกทั้ง 45 เล่ม ซึ่งแบ่งออกเป็น 3 หมวดหมู่ คือ
+                            พระวินัยปิฎก, พระสุตตันตปิฎก และพระอภิธรรมปิฎก โดย TriBuddha แบ่งออกเป็น 3 Features
+                            หนังสืออิเล็กทรอนิกส์ (E-book), เทียบเคียงพระไตรปิฎก (Compare Tripitaka)
+                            และค้นหาคำในพระไตรปิฎก
+                            (Search) </p>
+                        <ul>
+                            <li>หนังสือพระไตรปิฎกอิเล็กทรอนิกส์ (E-book) รวบรวมหนังสือพระไตรปิฎกเพื่อให้ผู้ใช้งานอ่าน
+                            </li>
+                            <li>เทียบเคียงพระไตรปิฎก (Compare Tripitaka)
+                                ผู้ใช้งานสามารถเทียบเคียงระหว่างฉบับเพื่อเพิ่มเข้าใจเนื้อหาในพระไตรปิฎกอย่างถ่องแท้มากยิ่งขึ้น
+                            </li>
+                            <li>ค้นหาคำในพระไตรปิฎก (Search)
+                                ผู้ใช้งานสามารถค้นหาเลือกดูเนื้อหาที่ต้องการด้วยคำในพระไตรปิฎกและกรองเนื้อหาตามที่ต้องการ
+                                เพื่อให้ผู้ใช้งานสามารถเข้าถึงเนื้อหาได้อย่างรวดเร็ว แม่นยำ </li>
+                        </ul>
+                    </section>
+
+                    <section id="E-book" class="main-section">
+                        <header>หนังสือพระไตรปิฎกอิเล็กทรอนิกส์ (E-book)</header>
+                        <p>วิธีการใช้งานหนังสือพระไตรปิฎกอิเล็กทรอนิกส์ (E-book) มีขั้นตอนดังนี้:</p>
+                        <ul>
+                            <li>ผู้ใช้งานสามารถเลือกเมนู HOME ที่แทบด้านบน โดยหน้าเริ่มต้นเมื่อเข้า TriBuddha web
+                                application จะเป็นหน้า HOME เมื่อผู้ใช้งานเข้าสู่หน้า HOME</li>
+                            <li>หน้า HOME เป็นหน้าที่รวบรวมรายการพระไตรปิฎก 45 เล่ม โดยจะแบ่งหมวดเป็น พระวินัยปิฎก
+                                พระสุตตันตปิฎก พระอภิธรรมปิฎก ซึ่งสามารถ click แสดงเพิ่มเติม/แสดงน้อยลง
+                                เพื่อปรับจำนวนการแสดงเล่มของหมวดนั้นๆ และเลือกเล่มทีี่ต้องการอ่าน</li>
+                            <li>เมื่อผู้ใช้งานเข้าสู่หน้าเนื้อหาพระไตรปิฎกแล้วแต่ละหน้าจะแสดงชื่อเล่ม
+                                เนื้อหาและปุ่มต่างๆ <br>
+                                <img src="images/search-bar-manual.png" alt="search bar image" width="100%"
+                                    height="100%">
+                                <img src="images/pagination-manual.png" alt="pagination image" width="100%"
+                                    height="100%">
+                            </li>
+                            <ul style="list-style-type:circle;">
+                                <li>ปุ่มที่ 1: Home - เมื่อผู้ใช้งานต้องการที่จะออกจากหน้านี้หรืออ่านหนังสือเล่มอื่น
+                                    สามารถกดปุ่ม HOME เพื่อกลับไปยัง หน้า Home ที่รวบรวมรายการพระไตรปิฎก 45 เล่ม</li>
+                                <li>ปุ่มที่ 2: แว่นขยาย - ปุ่มนี้ใช้สำหรับเพิ่มขนาดตัวอักษรให้ใหญ่ขึ้น</li>
+                                <li>ปุ่มที่ 3: โหมดกลางคืน -
+                                    ปุ่มนี้ใช้สำหรับเปลี่ยนสีพื้นหลังเป็นสีดำและตัวอักษรเป็นสีขาว
+                                    เพื่อถนอมสายตา</li>
+                                <li>ปุ่มที่ 4: Full screen - ปุ่มนี้ใช้สำหรับนำองค์ประกอบต่างๆ
+                                    โดยรอบเนื้อหาพระไตรปิฎกออก
+                                </li>
+                                <li>ปุ่มที่ 5: ปุ่มย้อนกลับและไปข้างหน้า - ปุ่มนี้ใช้สำหรับเปลี่ยนหน้าเนื้อหาพระไตรปิฎก
+                                    (เลขหน้านั้นเป็นเพียงการแสดงผลของเว็บไซต์เราเท่านั้น
+                                    ไม่ได้อิงตามหน้าหนังสือพระไตรปิฎก โดยแต่ละหน้าจะแสดงเนื้อหาทีละ 3 ข้อ)
+                                </li>
+                            </ul>
+                        </ul>
+                    </section>
+
+
+                    <section id="Compare-tripitaka" class="main-section">
+                        <header>เทียบเคียงพระไตรปิฎก (Compare Tripitaka)</header>
+                        <p>วิธีการใช้งานเทียบเคียงพระไตรปิฎก (Compare Tripitaka) มีขั้นตอนดังนี้:</p>
+                        <ul>
+                            <li> ผู้ใช้งานสามารถเลือกเมนู Compare Tripitaka ที่แทบด้านบน</li>
+                            <li>ผู้ใช้งานสามารถเลือกฉบับและเล่มที่ต้องการ จากนั้นระบุเลขข้อที่ต้องการเทียบเคียง
+                                โดยระบบจะแสดงเลขข้อเริ่มต้นและเลขข้อสุดท้ายของพระไตรปิฎกแต่ละเล่มที่สามารถกรอกได้เพื่อไม่ให้กรอกเลขข้อผิดพลาด
+                            </li>
+                            <li>เมื่อกรอกเลขข้อเสร็จสิ้นกดปุ่มค้นหา
+                                ระบบจะแสดงเนื้อหาของเลขข้อที่ค้นหาปัจจุบัน (ตัวอักษรสีดำ) เลขข้อก่อนหน้า และเลขข้อถัดไป
+                                (ตัวอักษรสีเทา)
+                            </li>
+                        </ul>
+                    </section>
+
+                    <section id="Search" class="main-section">
+                        <header>ค้นหาคำในพระไตรปิฎก (Search)</header>
+                        <p>วิธีการใช้งานค้นหาคำในพระไตรปิฎก (Search) มีขั้นตอนดังนี้</p>
+                        <ul>
+                            <li>ผู้ใช้งานสามารถเลือกเมนู Search ที่แทบด้านบน</li>
+                            <li>ผู้ใช้งานเลือกฉบับ หมวด โดยหมวดสามารถเลืือกได้ทุกหมวดหรือเลือกหมวดตามที่ผู้ใช้งานต้องการ
+                                จากนั้นกรอกคำที่เราต้องการสืบค้น
+                                <code>
+                              <div class="bi bi-info-circle");"></div>
+                              <div class="content-1"> การกรอกคำที่ต้องการสืบค้น สามารถกรอกได้ 3 รูปแบบ <br>
+                                คำเดียว: "พระ" , "ปาราชิก" , "เลื่อมใส" , "อาสนะ" เป็นต้น <br>
+                                หลายคำติดกัน: "พราหมณ์กูฏทันตะ" , "บูชามหายัญ" , "เขตกรุงราชคฤห์" , "ดูกรภิกษุ" เป็นต้น <br>
+                                หลายคำที่ไม่ติดกันแต่อยู่ในข้อเดียวกัน: "บิณฑบาต อานนท์" , "ติเตียน นักมวย" , "อาบัติ ภิกษุ" (เว้นวรรคระหว่างคำ)</div>
+                             </code>
+                            </li>
+                            <li>สามารถเพิ่มตัวกรองเพื่อผลลัพธ์ที่เฉพาะมากยิ่งขึ้น โดยสามารถเลือกเล่ม
+                                (เล่มจะขึ้นอยู่กับหมวดที่ผู้ใช้งานเลือก) และระบุเลขข้อเริ่มต้นจนไปถึงเลขข้อสุดท้าย
+                                นอกจากนี้ยังสามารถเรียงผลลัพธ์ตามเนื้อหาที่เกี่ยวข้องมากที่สุด (ค่าเริ่มต้น)
+                                หรือเรียงตามเลขเล่มและเลขข้อ
+                                <code>
+                                <div class="bi bi-info-circle");"></div>
+                                <div class="content-1">
+                                    ระบบสามารถเลือกเล่มย่อยได้และระบุเลขข้อเริ่มต้นและข้อสุดท้ายของเล่มย่อยนั้นๆ ซึ่งเล่มย่อยจะมีอยู่ในเล่มที่ 33, 36, 44, 45<br>
+                                    <img src="images/filter-manual.png" alt="filter image" width="100%" height="100%" style="margin: auto;">
+
+                                </div>
+                            </code>
+
+                            </li>
+                            <li>เมื่อกรอกคำและกรองข้อมูลเสร็จสิ้นกดปุ่มค้นหา ระบบจะแสดงรายการที่พบทั้งหมดทีละ 10 รายการ
+                                และผู้ใข้งานสามารถเลือกดูผลลัพธ์ทั้งหมดหรือตามหมวดที่ต้องการ
+                                หากต้องการดูรายการถัดไปสามารถ
+                                click ปุ่มถัดไป</li>
+                            <li>เลือกรายการที่ต้องการสืบค้น เมื่อเลือกรายการเสร็จสิ้น
+                                ระบบจะแสดงเนื้อหาของเลขข้อที่เลือกพร้อมไฮไลท์คำที่สืบค้น (ตัวอักษรสีดำ
+                                คำที่สืบค้นตัวอักษรสีแดง) เลขข้อก่อนหน้า และเลขข้อถัดไป (ตัวอักษรสีเทา) และสามารถ click
+                                หน้าถัดไปเพื่อดูผลลัพธ์ถัดไป</li>
+                            <li>หากต้องการจะอ่านทั้งเล่มสามารถ click ที่ Explore now
+                                เพื่อไปยังเล่มและเลขข้อของผลลัพธ์นั้น
+                            </li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section id="footer">
+        <div class="container">
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                <div class="col-md-4 d-flex align-items-center">
+                    <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                        <span>Tri</span>Buddha
+                    </a>
+                    <span class="text-muted">&copy; 2021 Company, Inc</span>
+                </div>
+
+                <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                    <li class="ms-3">
+                        <a class="text-muted" href="#"><svg class="bi" width="24" height="24">
+                                <use xlink:href="#twitter" />
+                            </svg></a>
+                    </li>
+                    <li class="ms-3">
+                        <a class="text-muted" href="#"><svg class="bi" width="24" height="24">
+                                <use xlink:href="#instagram" />
+                            </svg></a>
+                    </li>
+                    <li class="ms-3">
+                        <a class="text-muted" href="#"><svg class="bi" width="24" height="24">
+                                <use xlink:href="#facebook" />
+                            </svg></a>
+                    </li>
+                </ul>
+            </footer>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<script>
+    window.sessionStorage.removeItem("filter");
+</script>

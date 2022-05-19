@@ -1,0 +1,148 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.row {
+    display: grid;
+    grid-auto-flow: column;
+    --bs-gutter-x: 0rem;
+}
+
+
+.container-fluid {
+    padding: 0;
+    padding-right: 20px;
+}
+
+.side-bar {
+    z-index: 1;
+    width: 300px;
+    height: 100%;
+    background-color: #16171c;
+    border-right: 2px solid #cccccc;
+    color: #8c90a5;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+}
+
+#navbar {
+    z-index: 1;
+    height: 100%;
+    color: #8c90a5;
+    padding: 20px;
+    font-family: Helvetica, sans-serif;
+    height: 700px;
+}
+
+
+#navbar h1 {
+    letter-spacing: 1px;
+    font-size: 20pt;
+    color: #0ebeff;
+    text-align: left;
+    padding: 15px 25px;
+    font-weight: bold;
+}
+
+#navbar a {
+    display: block;
+    padding: 15px 25px;
+    color: #8c90a5;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    color: #ffffff;
+}
+
+#navbar ul {
+    padding: 0;
+}
+
+#navbar li {
+    position: relative;
+    border-top: 1px solid #383a47;
+    list-style: none;
+    width: 100%;
+    text-align: left;
+}
+
+#main-doc {
+    z-index: 0;
+    display: block;
+    width: 90%;
+    height: 100%;
+    text-align: left;
+    margin: 0;
+    padding-left: 20px;
+    background-color: #ffffff;
+    font-size: 11pt;
+    line-height: 2em;
+    color: #333333;
+}
+
+#main-doc header {
+    padding: 40px 0 20px 40px;
+    font-size: 24pt;
+    color: #383a47;
+    font-weight: bold;
+}
+
+#main-doc p {
+    margin: 15px 20px 15px 60px;
+}
+
+#main-doc ul,
+#main-doc ol,
+#main-doc li {
+    color: #007aa7;
+}
+
+#main-doc li {
+    margin: 15px 20px 15px 60px;
+}
+
+code {
+    margin: 20px 0px;
+    padding: 10px;
+    background-color: #f2f2f2;
+    display: block;
+    font-family: 'thasadith';
+    font-size: 1em;
+    color: #007aa7;
+    position: relative;
+}
+
+.bi-info-circle {
+    left: 10px;
+    top: 18px;
+    width: 50px;
+    text-align: center;
+    height: 60px;
+    border-radius: 5px;
+    padding: 10px;
+    position: absolute;
+    background-color: white;
+    font-size: 1.5rem;
+    color: black;
+}
+
+.bi-info-circle:after {
+    content: "TIP";
+    position: absolute;
+    left: 0;
+    top: 24px;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    width: 50px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.content-1 {
+    margin-left: 80px;
+}
