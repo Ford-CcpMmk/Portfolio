@@ -1,1 +1,1 @@
-# Tribuddha.xyz
+# https://tribuddha.xyz/
