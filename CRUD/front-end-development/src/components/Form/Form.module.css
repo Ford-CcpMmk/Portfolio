@@ -1,0 +1,41 @@
+.backdrop {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 10;
+  opacity: 1;
+  backdrop-filter: blur(10px);
+}
+
+.form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 2%;
+  overflow: hidden;
+}
+
+.heading-secondary {
+  font-size: 3rem;
+}
+
+.popup__close {
+  position: absolute;
+  top: 2.5rem;
+  right: 2.5rem;
+  font-size: 2.3rem;
+  border: 0;
+  background-color: transparent;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.2s;
+  line-height: 1;
+}

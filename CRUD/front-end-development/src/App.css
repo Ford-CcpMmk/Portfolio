@@ -1,0 +1,26 @@
+.all-users-container {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 10px;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background-color: #fff;
+}
+
+[class*="primary"] {
+  background-color: #5a8dee;
+}
+
+.thead-primary {
+  color: #fff;
+  font-weight: 600;
+}
+
+.buttons-container {
+  display: flex;
+  gap: 1.2rem;
+}
+
+th,
+td {
+  width: 20%;
+}
