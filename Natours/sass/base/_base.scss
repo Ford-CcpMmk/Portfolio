@@ -1,0 +1,39 @@
+// เหตุผลที่เราต้องเซตแบบนี้เพื่อให้ elements รวมถึง pseudo elements มี value box-sizing ที่เหมือนกัน
+// คำถามต่อมาทำไมต้องเป็น inherit แทนที่จะตั้งตรงๆว่า border-box ? ก็เพราะว่าถ้าเราทำแบบนั้นเวลาเราจะสร้าง section ใด section แล้วเราจะปรับเปลี่ยน box-sizing เป็นแบบอื่นเช่น content-box เราเปลี่ยนแค่ parent ของมันไม่ได้ ต้องเปลี่ยนทุก child elements ด้วย แต่เราทำแบบนี้ พอเราไปตั้ง section ว่า box-sizing: content-box มันก็ไม่ต้องเปลี่ยน child elements อีก เพราะว่า *, *::after, *::before มันจะ inherit ให้เราเอง ซึ่ง parent ของ section นั้นๆ มีศักดิ์สูงกว่า html / body ที่ตั้ง box-sizing: border-box อยู่แล้ว
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%; // 1rem = 10px;
+
+  @include respond(tab-land) {
+    font-size: 56.25%;
+  }
+
+  @include respond(tab-port) {
+    font-size: 50%;
+  }
+
+  @include respond(big-desktop) {
+    font-size: 75%;
+  }
+}
+
+body {
+  box-sizing: border-box;
+  padding: 3rem;
+
+  @include respond(tab-port) {
+    padding: 0;
+  }
+}
+
+::selection {
+  background-color: $color-primary;
+  color: $color-white;
+}
